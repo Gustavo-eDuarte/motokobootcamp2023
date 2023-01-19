@@ -70,6 +70,7 @@ actor{
 
 
     //6. Write a function convert_to_binary that takes a natural number n and returns a string representing the binary representation of n.
+    
     public query func convert_to_binary(n : Nat) : async Text {
         var num: Nat = n;
         var binary : Text = Nat.toText(num % 2);
